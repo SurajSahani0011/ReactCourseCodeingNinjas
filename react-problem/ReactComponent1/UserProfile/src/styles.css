@@ -1,0 +1,21 @@
+/* Write code for your CSS here */
+* {
+    margin: 5px;
+    padding: 5px;
+    
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 247, 255);
+  }
+  

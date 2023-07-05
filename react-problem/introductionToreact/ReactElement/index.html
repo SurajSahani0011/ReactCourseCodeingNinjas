@@ -1,0 +1,35 @@
+<!-- React Elements
+Send Feedback
+Complete the given code to Render the image on the web page.
+
+
+Note: The link for the image is "https://files.codingninjas.in/coding-ninjas-24647.png".
+
+
+
+Expected Output: -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>React App</title>
+  </head>
+
+  <body>
+    <div id="root"><img src= "https://files.codingninjas.in/coding-ninjas-24647.png" /></div>
+
+    <script type="text/javascript">
+
+      // Write your React code here
+   const reactHeading = React.createElement("img", {
+        src: "https://files.codingninjas.in/coding-ninjas-24647.png"
+      });
+        
+        ReactDOM.createRoot(document.getElementById("root")).render(reactHeading);
+
+
+    </script>
+
+  </body>
+</html>

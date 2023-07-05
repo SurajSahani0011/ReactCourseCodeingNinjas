@@ -1,0 +1,170 @@
+<!-- <html>
+    <head>
+        <title>Starting with React App</title>
+
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+       <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+       <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    </head>
+    <body>
+        <div id="root"></div>
+        <script  type="text/babel">
+
+            function App(){
+                let arr = [1,2,3,4,5,6];
+
+                let obj = {
+                    name: "Alexa",
+                    age:10
+                }
+                return(
+                    <>
+                     <h1>Array and Object in Javascript</h1>
+                     {arr.map((num) => <h2>{num}</h2>)}
+                    
+
+
+                     <h2>{obj.name}</h2>
+                    </>
+                )
+            }
+
+           const rootElement = ReactDOM.createRoot(document.getElementById("root"));
+           rootElement.render(<App/>);
+
+        </script>
+    </body>
+</html>  -->
+
+
+
+
+
+ <!-- Adding Unique key -->
+
+
+<!-- <html>
+    <head>
+        <title>Starting with React App</title>
+
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+       <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+       <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    </head>
+    <body>
+        <div id="root"></div>
+        <script  type="text/babel">
+
+            function App(){
+                let car = ["BMW","Audi","Nexa","Honda","Maruti"];
+
+               
+                return(
+                    <>
+                     <h1>List of Car</h1>
+                    <ul>
+                        {car.map((car,index)=>(
+                        <li key = {index}>{car}</li>
+                    ))}
+                    </ul>
+                    </>
+                )
+            }
+
+           const rootElement = ReactDOM.createRoot(document.getElementById("root"));
+           rootElement.render(<App/>);
+
+        </script>
+    </body>
+</html>  -->
+
+
+
+
+<!--  -->
+
+
+<!-- <html>
+    <head>
+        <title>Starting with React App</title>
+
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+       <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+       <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    </head>
+    <body>
+        <div id="root"></div>
+        <script  type="text/babel">
+
+            function App(){
+               let students = [
+                {
+                    name: "Alaxa",
+                    age:10,
+                    marks:35
+                },
+                {
+                    name: "Siri",
+                    age:12,
+                    marks:40
+                },
+                {
+                    name: "Google",
+                    age:13,
+                    marks:41
+                }];
+
+                return(
+                    <>
+                      <h1>Student Details</h1>
+                      <table>
+                         <thead>
+                                <tr>
+                                  <th>NAME</th>
+                                  <th>AGE</th>
+                                  <th>MARKS</th>
+                               </tr>
+                           </thead>
+                           
+                           <tbody>
+                            {students.map((student,index)=> (
+                                <tr key={index}>
+                                    <td>{student.name}</td> 
+                                    <td>{student.age}</td>
+                                    <td>{student.marks}</td>   
+                                </tr>
+                ))}
+            </tbody>
+                        </table>
+                    </>
+                )
+            }
+
+           const rootElement = ReactDOM.createRoot(document.getElementById("root"));
+           rootElement.render(<App/>);
+
+        </script>
+    </body>
+</html>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
